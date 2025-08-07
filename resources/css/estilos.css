@@ -1,0 +1,159 @@
+
+/* Enlaces y botones de la top bar */
+.top-bar a,
+.top-bar button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #0056b3;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.top-bar a:hover,
+.top-bar button:hover {
+    background-color: #004194;
+}
+
+/* Contenido centrado con margen para la top-bar */
+.contenido {
+    padding: 20px 30px;
+    max-width: 100%;
+    margin: 0;
+    background: transparent;
+    border-radius: 0;
+    width: 100%;
+}
+
+/* Contenido específico para formularios */
+.contenido.form-container {
+    padding: 60px 30px;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+/* Contenido de ancho completo para dashboard */
+.contenido.full-width {
+    padding: 0;
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+/* Contenido con ancho amplio para listas y tablas */
+.contenido.wide-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: transparent;
+    border-radius: 0;
+    width: 100%;
+}
+
+/* Etiquetas de los formularios */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Inputs y textarea uniformes */
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Botón submit con ancho completo */
+input[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Mensajes de éxito y error */
+.mensaje.ok {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #c3e6cb;
+}
+
+.mensaje.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #f5c6cb;
+}
+
+/* Adaptación responsive */
+@media (max-width: 500px) {
+    .contenido {
+        padding: 100px 20px 20px;
+        width: 100%;
+    }
+}
+
+.btn-ver {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.btn-ver:hover {
+    background-color: #218838;
+}
+
+.btn-editar {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.btn-eliminar:hover {
+    background-color: #218838;
+}
+
+.btn-eliminar {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.btn-eliminar:hover {
+    background-color: #218838;
+}

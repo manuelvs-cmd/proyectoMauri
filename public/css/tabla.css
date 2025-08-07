@@ -1,0 +1,95 @@
+/* Contenedor general */
+.tabla-contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px 40px; /* espacio para la navbar */
+    overflow-x: auto;
+}
+
+/* Tabla principal */
+.tabla-mercancias {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Encabezado */
+.tabla-mercancias thead {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+/* Celdas del encabezado */
+.tabla-mercancias th {
+    padding: 12px 15px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+/* Celdas del cuerpo */
+.tabla-mercancias td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Última fila sin borde */
+.tabla-mercancias tr:last-child td {
+    border-bottom: none;
+}
+
+/* Filas alternas */
+.tabla-mercancias tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Acciones (botones en la tabla) */
+.tabla-mercancias .acciones a,
+.tabla-mercancias .acciones form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.tabla-mercancias .acciones a:hover,
+.tabla-mercancias .acciones form button:hover {
+    background-color: #0056b3;
+}
+
+.tabla-mercancias .acciones form {
+    display: inline;
+    margin: 0;
+}
+
+.btn-ver {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn-ver:hover {
+    background-color: #0056b3;
+}
+
+.Detalle_de_la_Mercancía {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+}
